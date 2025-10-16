@@ -14,10 +14,8 @@ Quartus prime
 
 If we enable each J-K flip-flop to toggle based on whether or not all preceding flip-flop outputs (Q) are “high,” we can obtain the same counting sequence as the asynchronous circuit without the ripple effect, since each flip-flop in this circuit will be clocked at exactly the same time:
 
-![image](https://github.com/naavaneetha/SYNCHRONOUS-UP-COUNTER/assets/154305477/d5db3fa0-e413-404c-b80e-b2f39d82e7e8)
+![WhatsApp Image 2025-10-15 at 10 06 03_cb3f1497](https://github.com/user-attachments/assets/34b1da71-630c-401f-9ce9-3c66a76f0eda)
 
-
-![image](https://github.com/naavaneetha/SYNCHRONOUS-UP-COUNTER/assets/154305477/52cb61eb-d04b-442d-810c-31185a68410b)
 
 Each flip-flop in this circuit will be clocked at exactly the same time.
 The result is a four-bit synchronous “up” counter. Each of the higher-order flip-flops are made ready to toggle (both J and K inputs “high”) if the Q outputs of all previous flip-flops are “high.”
@@ -31,13 +29,15 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 /* write all the steps invloved */
 
 **PROGRAM**
+<img width="1911" height="826" alt="image" src="https://github.com/user-attachments/assets/ec73d01c-35d0-4c95-b177-d9a950000572" />
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:DWIJESH RAJ SINHA Y RegisterNumber:25013468
 */
 
 **RTL LOGIC UP COUNTER**
+![WhatsApp Image 2025-10-15 at 10 05 56_c76d9bd1](https://github.com/user-attachments/assets/7f82a927-d2d4-47b9-a702-1b2f612f6e22)
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
